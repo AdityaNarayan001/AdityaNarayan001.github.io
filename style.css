@@ -258,3 +258,43 @@ ul {
     font-weight: bold;
     font-size: 3.5vmax;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    width: 80%;
+    max-width: 1000px;
+    aspect-ratio: 1 / 1;
+    background: #0f0f11;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.quadrant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #e0ff4f;
+    border-radius: 10px;
+    background: rgb(61, 61, 61);
+}
+
+.quadrant img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2vmax;
+    margin-right: 0.8vmax;
+}
+
+.box-heading {
+    color: #e0ff4f;
+    margin-bottom: 3vmax;
+    text-align: center;
+}
