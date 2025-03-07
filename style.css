@@ -159,3 +159,90 @@ b {
     font-size: 1.2vmax;
     line-height: 2vmax;
 }
+
+.experience {
+    text-align: center;
+    margin-top: 5vmax;
+    margin-bottom: 3vmax;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: #e0ff4f;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.timeline-item {
+    padding: 20px;
+    position: relative;
+    width: 50%;
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.timeline-dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #e0ff4f;
+    border-radius: 50%;
+    top: 25px;
+    left: calc(100% + 5px);
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+    left: -18px;
+}
+
+h2 {
+    color: #e0ff4f;
+    margin-bottom: 0.5vmax;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 1.5vmax;
+}
+
+ul {
+    color: white;
+    line-height: 1.2vmax;
+}
+
+.tech {
+    text-align: center;
+    margin-top: 5vmax;
+    margin-bottom: 3vmax;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vmax;
+}
+
+.heading span.T {
+    color: #e0ff4f;
+    font-weight: bold;
+    font-size: 3.5vmax;
+}
