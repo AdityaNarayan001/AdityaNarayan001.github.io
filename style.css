@@ -87,7 +87,7 @@ body {
 }
 
 .image-link:hover img {
-    transform: scale(1.1); 
+    transform: scale(1.5); 
     opacity: 0.8;
 }
 
@@ -126,4 +126,36 @@ body {
     to {
         transform: translateX(-50%);
     }
+}
+
+.about-me {
+    text-align: center;
+    margin-top: 5vmax;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vmax;
+}
+
+.heading span.A {
+    color: #e0ff4f;
+    font-weight: bold;
+    font-size: 3.5vmax;
+}
+
+b {
+    color: #e0ff4f
+}
+
+.heading-data {
+    text-align: justify;
+    color: white;
+    margin-top: 2vmax;
+    margin-left: 5.5vmax;
+    margin-right: 5.5vmax;
+    padding: 0 3vmax  ;
+    font-size: 1.2vmax;
+    line-height: 2vmax;
 }
