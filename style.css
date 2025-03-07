@@ -133,13 +133,13 @@ body {
     margin-top: 5vmax;
 }
 
-.heading {
+.headingA {
     color: white;
     font-weight: bold;
     font-size: 3.5vmax;
 }
 
-.heading span.A {
+.headingA span.A {
     color: #e0ff4f;
     font-weight: bold;
     font-size: 3.5vmax;
@@ -166,13 +166,13 @@ b {
     margin-bottom: 3vmax;
 }
 
-.heading {
+.headingE {
     color: white;
     font-weight: bold;
     font-size: 3.5vmax;
 }
 
-.heading span.E {
+.headingE span.E {
     color: #e0ff4f;
     font-weight: bold;
     font-size: 3.5vmax;
@@ -247,13 +247,13 @@ ul {
     margin-bottom: 3vmax;
 }
 
-.heading {
+.headingT {
     color: white;
     font-weight: bold;
     font-size: 3.5vmax;
 }
 
-.heading span.T {
+.headingT span.T {
     color: #e0ff4f;
     font-weight: bold;
     font-size: 3.5vmax;
