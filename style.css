@@ -166,6 +166,18 @@ b {
     margin-bottom: 3vmax;
 }
 
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vmax;
+}
+
+.heading span.E {
+    color: #e0ff4f;
+    font-weight: bold;
+    font-size: 3.5vmax;
+}
+
 .timeline {
     position: relative;
     max-width: 1200px;
