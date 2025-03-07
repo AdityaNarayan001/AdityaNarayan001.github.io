@@ -282,6 +282,12 @@ ul {
     border: 5px solid #e0ff4f;
     border-radius: 10px;
     background: rgb(61, 61, 61);
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.quadrant:hover {
+    transform: scale(1.1); 
+    opacity: 1;
 }
 
 .quadrant img {
