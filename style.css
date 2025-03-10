@@ -352,3 +352,41 @@ ul {
 .footer span.footer-A {
     color: #e0ff4f;
 }
+
+/* -------------- */
+/* Projects Page  */
+/* -------------- */
+
+.projects-heading {
+    text-align: center;
+    color: white;
+    font-size: 3.5vmax;
+    font-weight: bold;
+    margin-top: 3vmax;
+}
+
+.projects-heading span.projects-P {
+    color: #e0ff4f;
+}
+
+
+
+
+
+
+
+/* -------------- */
+/* Blogs Page  */
+/* -------------- */
+
+.blogs-heading {
+    text-align: center;
+    color: white;
+    font-size: 3.5vmax;
+    font-weight: bold;
+    margin-top: 3vmax;
+}
+
+.blogs-heading span.blogs-B {
+    color: #e0ff4f;
+}
