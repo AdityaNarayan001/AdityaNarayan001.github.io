@@ -342,3 +342,13 @@ ul {
     margin-bottom: 3vmax;
     text-align: center;
 }
+
+.footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer span.footer-A {
+    color: #e0ff4f;
+}
