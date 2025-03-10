@@ -1,3 +1,15 @@
+:root {
+    
+    --primary-color: #0AD3FF;       /* #e0ff4f */
+    --background-color: #0f0f11;
+    --text-color: white;
+    --nav-hover-color: #61e2ff;     /* #ECFF99 */
+    --card-bg: rgb(41, 41, 41);
+    --nav-text-color: #050505;
+    --tag-bg-color: #F15025;        /* #007bff */
+    --tag-text-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +18,18 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #0f0f11;
+    background-color: var(--background-color);
 }
 
 .navbar {
-    background: #e0ff4f;
+    background: var(--primary-color);
     padding: 15px;
     display: flex;
     justify-content: center;
 }
 
 .navbar a {
-    color: #050505;
+    color: var(--nav-text-color);
     text-decoration: none;
     padding: 15px 30px;
     margin: 0 10px;
@@ -26,7 +38,7 @@ body {
 }
 
 .navbar a:hover {
-    background: #ECFF99;
+    background: var(--nav-hover-color);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
@@ -35,7 +47,7 @@ body {
     text-align: center;
     margin-top: 50px;
     font-size: 24px;
-    color: #f2f5f3;
+    color: var(--text-color);
 }
 
 .content img {
@@ -47,7 +59,7 @@ body {
 
 .text-content {
     font-size: 20px;
-    color: white;
+    color: var(--text-color);
     width: 50%;
     text-align: left;
     margin-left: 2vmax;
@@ -55,25 +67,25 @@ body {
 }
 
 .text-content span.hi {
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 3vmax;
 }
 
 .text-content span.name {
-    color: #e0ff4f;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 6.5vmax;
 }
 
 .text-content span.thrdLine {
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 3vmax;
 }
 
 .text-content span.D {
-    color: #e0ff4f;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 3vmax;
 }
@@ -93,8 +105,8 @@ body {
 
 .resume-button {
     display: inline-block;
-    background-color: #e0ff4f;
-    color: rgb(61, 61, 61);
+    background-color: var(--primary-color);
+    color: var(--card-bg);
     padding: 12px 20px;
     font-size: 1.8vmax;
     font-weight: bold;
@@ -120,7 +132,7 @@ body {
 }
 
 .resume-button:hover {
-    background-color: #e0ff4f;
+    background-color: var(--primary-color);
     transform: scale(1.1); 
     opacity: 1;
 }
@@ -141,7 +153,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    background: #0f0f11;
+    background: var(--background-color);
     padding: 10px 0;
     width: 100%;
 }
@@ -172,24 +184,24 @@ body {
 }
 
 .headingA {
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 3.5vmax;
 }
 
 .headingA span.A {
-    color: #e0ff4f;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 3.5vmax;
 }
 
 b {
-    color: #e0ff4f
+    color: var(--primary-color)
 }
 
 .heading-data {
     text-align: justify;
-    color: white;
+    color: var(--text-color);
     margin-top: 2vmax;
     margin-left: 5.5vmax;
     margin-right: 5.5vmax;
@@ -205,13 +217,13 @@ b {
 }
 
 .headingE {
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 3.5vmax;
 }
 
 .headingE span.E {
-    color: #e0ff4f;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 3.5vmax;
 }
@@ -226,7 +238,7 @@ b {
     content: '';
     position: absolute;
     width: 5px;
-    background-color: #e0ff4f;
+    background-color: var(--primary-color);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -237,7 +249,7 @@ b {
     padding: 20px;
     position: relative;
     width: 50%;
-    background-color: rgb(61, 61, 61);
+    background-color: var(--card-bg);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -254,7 +266,7 @@ b {
     position: absolute;
     width: 16px;
     height: 16px;
-    background-color: #e0ff4f;
+    background-color: var(--primary-color);
     border-radius: 50%;
     top: 25px;
     left: calc(100% + 5px);
@@ -265,17 +277,17 @@ b {
 }
 
 h2 {
-    color: #e0ff4f;
+    color: var(--primary-color);
     margin-bottom: 0.5vmax;
 }
 
 h3 {
-    color: white;
+    color: var(--text-color);
     margin-bottom: 1.5vmax;
 }
 
 ul {
-    color: white;
+    color: var(--text-color);
     line-height: 1.2vmax;
 }
 
@@ -286,13 +298,13 @@ ul {
 }
 
 .headingT {
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 3.5vmax;
 }
 
 .headingT span.T {
-    color: #e0ff4f;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 3.5vmax;
 }
@@ -305,7 +317,7 @@ ul {
     width: 80%;
     max-width: 1000px;
     aspect-ratio: 1 / 1;
-    background: #0f0f11;
+    background: var(--background-color);
     padding: 10px;
     margin: 0 auto;
 }
@@ -317,9 +329,9 @@ ul {
     align-items: center;
     text-align: center;
     padding: 20px;
-    border: 5px solid #e0ff4f;
+    border: 5px solid var(--primary-color);
     border-radius: 10px;
-    background: rgb(61, 61, 61);
+    background: var(--card-bg);
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 
@@ -338,19 +350,19 @@ ul {
 }
 
 .box-heading {
-    color: #e0ff4f;
+    color: var(--primary-color);
     margin-bottom: 3vmax;
     text-align: center;
 }
 
 .footer {
     text-align: center;
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
 }
 
 .footer span.footer-A {
-    color: #e0ff4f;
+    color: var(--primary-color);
 }
 
 /* -------------- */
@@ -360,7 +372,7 @@ ul {
 
 .projects-heading {
     text-align: center;
-    color: white;
+    color: var(--text-color);
     font-size: 3.5vmax;
     font-weight: bold;
     margin-top: 3vmax;
@@ -368,7 +380,7 @@ ul {
 }
 
 .projects-heading span.projects-P {
-    color: #e0ff4f;
+    color: var(--primary-color);
 }
 
 .project-card * {
@@ -380,7 +392,7 @@ ul {
     max-width: 1000px; 
     width: 70%; 
     min-height: 250px; 
-    background: rgb(61, 61, 61);
+    background: var(--card-bg);
     border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -416,7 +428,7 @@ ul {
 }
 
 .project-title {
-    color: #e0ff4f;
+    color: var(--primary-color);
     font-size: 2vmax;
     font-weight: bold;
     margin-bottom: 0.5vmax;
@@ -424,7 +436,7 @@ ul {
 
 .project-description {
     font-size: 0.9vmax;
-    color: white;
+    color: var(--text-color);
     margin-bottom: 0.5vmax;
 }
 
@@ -435,8 +447,8 @@ ul {
 }
 
 .tag {
-    background-color: #007bff;
-    color: white;
+    background-color: var(--tag-bg-color);
+    color: var(--tag-text-color);
     padding: 5px 10px;
     font-size: 0.78vmax;
     border-radius: 15px;
@@ -453,7 +465,7 @@ ul {
 
 .blogs-heading {
     text-align: center;
-    color: white;
+    color: var(--text-color);
     font-size: 3.5vmax;
     font-weight: bold;
     margin-top: 3vmax;
@@ -461,5 +473,5 @@ ul {
 }
 
 .blogs-heading span.blogs-B {
-    color: #e0ff4f;
+    color: var(--primary-color);
 }
