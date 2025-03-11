@@ -1,12 +1,12 @@
 :root {
     
-    --primary-color: #0AD3FF;       /* #e0ff4f */
+    --primary-color: #e0ff4f;       /* #e0ff4f, #0AD3FF */
     --background-color: #0f0f11;
     --text-color: white;
-    --nav-hover-color: #61e2ff;     /* #ECFF99 */
+    --nav-hover-color: #e7fb8c;     /* #ECFF99, #61e2ff */
     --card-bg: rgb(41, 41, 41);
     --nav-text-color: #050505;
-    --tag-bg-color: #F15025;        /* #007bff */
+    --tag-bg-color: #00aaff;        /* #007bff */
     --tag-text-color: white;
 }
 
